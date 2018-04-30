@@ -1,0 +1,28 @@
+*{
+	text-align: center;
+}
+
+a {
+	color: black;
+	font-size: 100px;
+	cursor: pointer;
+	text-transform: uppercase;
+	line-height: 1px;
+	font-family: 'Monoton', cursive;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+}
+
+p {
+	background-color: black;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+span {
+	font-size: 50px;
+}
