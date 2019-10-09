@@ -3,7 +3,7 @@
 }
 
 a {
-	color: black;
+	color: white;
 	font-size: 100px;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -18,11 +18,128 @@ a:hover {
 }
 
 p {
-	background-color: black;
 	color: white;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
 span {
 	font-size: 50px;
+
 }
+
+h1 {
+	color:white;
+	align-items: center;
+}
+
+body {
+    background-image: url("Europe.png");
+ 	background-color: #cccccc;
+    height: 1381px;
+    width: 1800px;
+  	background-position: center;
+ 	background-repeat: : no-repeat;
+ 	background-size: cover;
+}
+
+img.ri
+{
+	position: absolute;
+	max-width: 25%;
+	top: 10%;
+	left: 10%;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+
+img.ri:empty
+{
+	top: 25%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+@media screen and (orientation: portrait) {
+  img.ri { max-width: 90%; }
+}
+
+@media screen and (orientation: landscape) {
+  img.ri { max-height: 90%; }
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  position: absolute;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  top: 50%;
+  left: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox2 {
+  margin: 30px;
+  background-color: #ffffff;
+  opacity: 0.8;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  position: absolute;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  top: 120%;
+  left: 49%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div.transbox2 p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* On mouse-over */
+.btn:hover {background: #eee;}
+
+.success {color: white;}
