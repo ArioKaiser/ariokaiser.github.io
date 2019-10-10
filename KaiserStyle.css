@@ -143,3 +143,49 @@ div.transbox2 p {
 .btn:hover {background: #eee;}
 
 .success {color: white;}
+
+.btn2 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  top: 43%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* On mouse-over */
+.btn2:hover {background: #eee;}
+
+.btn3 {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  position: absolute;
+  max-width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+  top: 43%;
+  left: 55%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* On mouse-over */
+.btn3:hover {background: #eee;}
