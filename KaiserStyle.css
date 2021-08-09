@@ -33,7 +33,7 @@ h1 {
 }
 
 body {
-    background-image: url("Europe.png");
+    background-image: url("idk.png");
  	background-color: #cccccc;
     height: 1381px;
     width: 1800px;
@@ -45,7 +45,7 @@ body {
 img.ri
 {
 	position: absolute;
-	max-width: 25%;
+	max-width: 10%;
 	top: 10%;
 	left: 10%;
 	border-radius: 3px;
